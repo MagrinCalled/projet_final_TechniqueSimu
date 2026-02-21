@@ -1,6 +1,6 @@
 On considère un porte-feuille de $N$ contrats d'assurance chacun associé à un motard.
 
-On considère que la distribution d'un remboursement est proportionnelle à $f^{*}(x) = &\exp{\left(-\eta\ln{(\alpha + |x-x_0|)} \right)} \mathbb{1}_{x \in \R^{+}}$
+On considère que la distribution d'un remboursement est proportionnelle à $f^{*}(x) = \exp{\left(-\eta\ln{(\alpha + |x-x_0|)} \right)} \mathbb{1}_{x \in \R^{+}}$
 
 Avec $\eta>3,~x_0>0,~\alpha>0$.
 
