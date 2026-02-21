@@ -11,11 +11,9 @@ Chaque motard a une probabilité $p_S$ (resp. $p_N$, resp. $p_P$) d'avoir un acc
 
 Nous allons nous placer dans deux cadres distincts.
 
-\textbf{Cas A} Tous les motards ont la même météo.
+Cas A - Tous les motards ont la même météo.
 
-\textbf{Cas B} Chaque motard a sa propre météo (\textit{i.e.} sa propre chaîne de Markov) et elles sont toutes indépendantes.
+Cas B - Chaque motard a sa propre météo (\textit{i.e.} sa propre chaîne de Markov) et elles sont toutes indépendantes.
 
-L'objectif sera d'estimer par Monte-Carlo la quantité \begin{equation}
-    m(s):=\E[R-s~|~R>s]
-\end{equation}
-Où $R$ est le montant des remboursements totaux sur une année et $s > 0$ un seuil fixé à l'avance. Ceci dans le cas \textbf{A} comme le cas \textbf{B}.
+L'objectif sera d'estimer par Monte-Carlo la quantité $m(s):=\E[R-s|R>s]$.
+Où $R$ est le montant des remboursements totaux sur une année et $s > 0$ un seuil fixé à l'avance. Ceci dans le cas A comme le cas B.
