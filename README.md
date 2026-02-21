@@ -2,7 +2,7 @@ On considère un porte-feuille de $N$ contrats d'assurance chacun associé à un
 
 On considère que la distribution d'un remboursement est proportionnelle à $f^{*}(x) = \exp{\left(-\eta\ln{(\alpha + |x-x_0|)} \right)} \mathbb{1}_{x \in \mathbb{R}^{+}}$
 
-Avec $\eta>3,~x_0>0,~\alpha>0$.
+Avec $\eta>3, x_0>0, \alpha>0$.
 
 De plus, on considère que les conditions météorologiques ont un impact sur les risques encourus par les motards. La météo sera modélisée par une chaîne de Markov à trois états, \textit{Soleil, Nuages, Pluies}.
 Avec pour probabilité de transition un vecteur $$\text{ptrans} = (p_{SN},~p_{NS},~p_{NP},~p_{PN})$$
