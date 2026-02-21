@@ -15,5 +15,5 @@ Cas A - Tous les motards ont la même météo.
 
 Cas B - Chaque motard a sa propre météo (\textit{i.e.} sa propre chaîne de Markov) et elles sont toutes indépendantes.
 
-L'objectif sera d'estimer par Monte-Carlo la quantité $m(s):=\E[R-s|R>s]$.
+L'objectif sera d'estimer par Monte-Carlo la quantité $m(s):=\mathbb{E}[R-s|R>s]$.
 Où $R$ est le montant des remboursements totaux sur une année et $s > 0$ un seuil fixé à l'avance. Ceci dans le cas A comme le cas B.
